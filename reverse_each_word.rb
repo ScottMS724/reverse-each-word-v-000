@@ -9,3 +9,5 @@ def reverse_each_word(string)
 end 
 
 def reverse_each_word_using_collect(string)
+  reversedWords = []
+  string = string.split(" ")
