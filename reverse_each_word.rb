@@ -5,4 +5,5 @@ def reverse_each_word(string)
     word = word.reverse!
     reversedWords.unshift(word)
   end
+  return reversedWords.join( )
 end 
