@@ -16,3 +16,4 @@ def reverse_each_word_using_collect(string)
     reversedWords.push(word)
   end
   return reversedWords.join(" ")
+end
