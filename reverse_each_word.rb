@@ -15,3 +15,4 @@ def reverse_each_word_using_collect(string)
     word = word.reverse!
     reversedWords.push(word)
   end
+  return reversedWords.join(" ")
